@@ -12,7 +12,7 @@ public class switchCetakNoPresensi {
         switch (semester) {
             case 1:
                 System.out.println("KRS semester 1 ditampilkan");
-                break;
+                
             case 2:
                 System.out.println("KRS semester 2 ditampilkan");
                 break;
