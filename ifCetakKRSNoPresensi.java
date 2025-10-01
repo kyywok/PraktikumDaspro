@@ -8,12 +8,15 @@ public class ifCetakKRSNoPresensi {
         System.out.println("Apakah UKT sudah lunas? (true/false): ");
         boolean uktLunas = input.nextBoolean();
 
-        if (uktLunas) {
-            System.out.println("Pembayaran UKT Terverifikasi");
-            System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
-        } else {
-            System.out.println("Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu");
-        }
+        String pembayaran = (uktLunas) ? "Silahkan cetak KRS dan minta tanda tangan DPA" : "Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu";
+        System.out.println(pembayaran);
+
+        // if (uktLunas) {
+        //     System.out.println("Pembayaran UKT Terverifikasi");
+        //     System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
+        // } else {
+        //     System.out.println("Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu");
+        // }
 
     }
 }
